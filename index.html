@@ -15,20 +15,19 @@
         </div>
         <div class="login__column">
             <div class="login__box">
-                <img src="images/logo.png" alt="logo" class="logo">
+                <img src="images/logo.png" alt="logo" class="login__logo">
+                <form action="feed.html" method="post">
+                    <input type="text" name="username" required>
+                    <input type="password" name="password" required>
+                    <input type="submit" value="Log In">
+                    <!--input type = "email"-->
+                </form>
+
+                <span class="login__or">or</span>
+                <a href="" class="login__link login__link--dark">Login with Facebook</a>
+                <a href="" class="login__link login__link--dark login_link--small">Forgot password</a>
             </div>
-            <div class="login__box">
-                <div class="login_info">
-                    <form>
-                        <span>ID</span>
-                        <input type="text" name="id">
-                        <br>
-                        <span>password</span>
-                        <input type="text" name="pasword">
-                    </form>
-                    <button type="button">Sign In</button>
-                </div>
-            </div>
+
             <div class="login__with__facebook">
                 <img src="images/facebook_logo.png" alt="facebook" class="facebook">
                 <br>
