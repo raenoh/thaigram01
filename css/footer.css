@@ -22,3 +22,7 @@
 .footer__column .footer__copy {
   color: #999;
 }
+
+.login_box .login__box--transparent {
+  display: flex;
+}
