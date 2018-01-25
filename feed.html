@@ -10,22 +10,22 @@
 
 <body>
     <header class="header">
-        <div class="header__image">
+        <div class="header__logo">
             <a href="feed.html">
-                <img src="images/instagram_small.png" alt="instagram_small" class="instagram_header_img">
+                <img src="images/instagram_small.png" alt="header__image" class="header__image">
             </a>
         </div>
-        <form action="#" method="get">
-            <input placeholder="search" type="search" name="search">
+        <form>
+            <input type="text" placeholder="Search">
         </form>
-        <nav class="header__nav__column">
-            <ul class="header__nav_column_list">
-                <li class="header__nav_column_list_item">
-                    <a href="explorer.html">
+        <nav class="header__navigation">
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="explorer.html" class="header__link">
                         <i class="fa fa-compass" aria-hidden="true"></i>
                     </a>
                 </li>
-                <li class="header__nav_column_list_item">
+                <li class="header__list-item">
                     <a href="#">
                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                     </a>
@@ -39,37 +39,56 @@
         </nav>
     </header>
 
-    <main class="feed__column">
-        <div class="feed__column_list">
-            <div class="comment_user">
-                <img src="images/your_pic.png" alt="your_small_pic" class="your_small_pic">
-                <span class="coment_name">adfadfasdfafadf</span>
+    <main class="feed">
+        <div class="photo">
+            <header class="photo__header">
+                <img src="images/your_pic.png" alt="your_small_pic" class="photo__avatar">
+                <div class="photo__user">
+                    <span class="photo__username">Rae Noh</span>
+                    <span class="photo__location">at Chiang Mai</span>
+                </div>
+            </header>
+            <img src="images/full_profile.png" alt="full_profile" class="photo__file">
+            <div class="photo__meta">
+                <div class="tag_actions">
+                    <span class="photo__action">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    </span>
+                    <span class="photo__action">
+                        <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <span class="photo__likes">14,490 views</span>
+                <ul class="photo__comment">
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">
+                            inthetiger
+                        </span>
+                        Wow omg wtf!
+                    </li>
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">
+                            inthetiger
+                        </span>
+                        Wow omg wtf!
+                    </li>
+                    <li class="photo__comment">
+                        <span class="photo__comment-author">
+                            inthetiger
+                        </span>
+                        Wow omg wtf!
+                    </li>
+                </ul>
+                <span class="photo__date">7 days ago</span>
+                <div class="photo__add-comment">
+                    <textarea placeholder="Add a comment..."></textarea>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
             </div>
-            <div class="hate_like_icon">
-                <i class="fa fa-heart" aria-hidden="true"></i>
-                <i class="fa fa-comment-o" aria-hidden="true"></i>
-            </div>
-            <div class="tag_icon">
-                <i class="fa fa-bookmark-o" aria-hidden="true"></i>
-            </div>
-            <img src="images/full_profile.png" alt="full_profile" class="full_profile">
-            <span class="feed_view_count">14,490 views</span>
-            <ul class="comment_list">
-                <li class="comment_list_item">
-                    <span class="comment_list_item_story">Let's get it</span>
-                </li>
-                <li class="comment_list_item">
-                    <span class="comment_list_item_story">Yes you can</span>
-                </li>
-                <li class="comment_list_item">
-                    <span class="comment_list_item_story">Just do it</span>
-                </li>
-            </ul>
-            <span class="last_feed_date">2 days ago</span>
-            <div class="input_feed_comment_column">
-                <textarea name="input_feed_comment" rows="10" cols="50">Add a comment</textarea>
-            </div>
-            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
         </div>
     </main>
 
