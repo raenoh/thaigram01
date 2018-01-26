@@ -6,20 +6,13 @@
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
   border: 1px solid rgba(0, 0, 0, 0.09);
+  padding: 22px 0;
 }
 
 .header .header__container {
-  width: 100%;
-  max-width: 970px;
-  padding: 22px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header .header__container > * {
-  width: 33%;
 }
 
 .header__logo .header__image {
@@ -29,11 +22,10 @@
 
 .header__navigation .header__list {
   display: flex;
-  font-weight: bold;
-  font-size: 13px;
 }
 
 .header__list .header__list-item {
+  display: inline-block;
   font-size: 23px;
   margin-left: 30px;
 }

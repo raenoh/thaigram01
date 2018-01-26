@@ -1,13 +1,21 @@
 .main {
   width: 100%;
-  max-width: 970px;
+  max-width: 600px;
   display: flex;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.09);
 }
 
+.photo {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
 .photo .photo__header {
   display: flex;
+}
+
+.photo__header .photo__user {
+  padding-top: 15px;
 }
 
 .photo__header .photo__username {
