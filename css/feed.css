@@ -1,0 +1,26 @@
+.main {
+  width: 100%;
+  max-width: 970px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.photo .photo__header {
+  display: flex;
+}
+
+.photo__header .photo__username {
+  display: block;
+}
+
+.photo__header .photo__location {
+  display: block;
+}
+
+.photo__header .photo__avatar {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+}
