@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Explorer | Thaigram</title>
@@ -11,33 +12,37 @@
 
 <body>
     <header class="header">
-        <div class="header__logo">
-            <a href="feed.html">
-                <img src="images/instagram_small.png" alt="instagram_small" class="instagram_header_img">
-            </a>
+        <div class="header__container">
+
+            <div class="header__logo">
+                <a href="feed.html">
+                    <img src="images/instagram_small.png" alt="header__image" class="header__image">
+                </a>
+            </div>
+            <form class="header__search">
+                <input type="text" placeholder="Search">
+            </form>
+            <nav class="header__navigation">
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a href="explorer.html" class="header__link">
+                            <i class="fa fa-compass" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="#">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
-        <form action="#" method="get">
-            <input placeholder="search" type="search" name="search">
-        </form>
-        <nav class="header__navigation">
-            <ul class="header__list">
-                <li class="header__list-item">
-                    <a href="#">
-                        <i class="fa fa-compass" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#">
-                        <i class="fa fa-heart-o" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <main class="explorer">
@@ -45,13 +50,37 @@
             <li class="explorer__user">
                 <div class="explorer__column">
                     <img src="images/your_pic.png" alt="your_profile_image" class="your_profile_image">
-                    <div class="explorer__user">
+                    <div class="explorer__user-data">
                         <span class="explorer__username">Scolarimatias</span>
                         <span class="explorer__fullname">Matias Scolari</span>
                     </div>
                 </div>
                 <div class="explorer__column">
-                    <button class="explorer__button">Follow</button>>
+                    <button class="explorer__button">Follow</button>
+                </div>
+            </li>
+            <li class="explorer__user">
+                <div class="explorer__column">
+                    <img src="images/your_pic.png" alt="your_profile_image" class="your_profile_image">
+                    <div class="explorer__user-data">
+                        <span class="explorer__username">Scolarimatias</span>
+                        <span class="explorer__fullname">Matias Scolari</span>
+                    </div>
+                </div>
+                <div class="explorer__column">
+                    <button class="explorer__button">Follow</button>
+                </div>
+            </li>
+            <li class="explorer__user">
+                <div class="explorer__column">
+                    <img src="images/your_pic.png" alt="your_profile_image" class="your_profile_image">
+                    <div class="explorer__user-data">
+                        <span class="explorer__username">Scolarimatias</span>
+                        <span class="explorer__fullname">Matias Scolari</span>
+                    </div>
+                </div>
+                <div class="explorer__column">
+                    <button class="explorer__button">Follow</button>
                 </div>
             </li>
         </ul>

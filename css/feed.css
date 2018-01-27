@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.09);
+  padding-top: 63px;
 }
 
 .photo {
@@ -15,11 +16,13 @@
 }
 
 .photo__header .photo__user {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .photo__header .photo__username {
   display: block;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .photo__header .photo__location {
@@ -32,3 +35,68 @@
   margin: 10px;
   border-radius: 50%;
 }
+
+.tag_actions {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.tag_actions .photo__action-heart-comment {
+  padding: 15px 13px;
+}
+
+.tag_actions .photo__action-bookmark {
+  padding: 15px 18px;
+}
+
+.photo__action {
+  font-size: 23px;
+}
+
+.photo__meta .photo__likes-box {
+  padding: 10px 0 15px 13px;
+}
+
+.photo__comment {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 13px 13px;
+}
+
+.photo__comment .photo__comment-author {
+  color: slategrey;
+}
+
+.photo__add-comment {
+  padding: 15px 13px 15px 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo__add-comment textarea {
+  width: 561px;
+  height: 50px;
+  display: block;
+  font-size: 14px;
+}
+
+.photo__add-comment-ellipsis {
+  width: 40px;
+  height: 45px;
+  padding: 10px;
+  text-align: center;
+  resize: none;
+}
+
+.photo__date {
+  display: block;
+  padding-left: 13px;
+  color: slategrey;
+}
+
+/*
+.photo__add-comment i {
+  font-size: 14px;
+}
+*/

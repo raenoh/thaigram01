@@ -1,0 +1,83 @@
+.explorer {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  /*border: 1px solid rgba(0, 0, 0, 0.09);*/
+  margin: 60px 0;
+}
+
+.explorer .explorer__users {
+  padding: 15px 8px;
+}
+
+.explorer__user .explorer__column {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.explorer__column .explorer__user-data {
+  padding: 10px;
+}
+
+.explorer__users .explorer__user {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  width: 600px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explorer__column .explorer__username {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  /*animation: flybutton 1s linear infinite;*/
+}
+
+.your_profile_image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/*
+@keyframes flybutton {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes button_bounce {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 150px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+*/
+
+.explorer__button {
+  width: 56px;
+  height: 28px;
+  border: 0;
+  text-align: center;
+  background-color: #2591f4;
+  color: white;
+  border-radius: 3px;
+  font-weight: 600;
+  /*animation: button_bounce 1s linear infinite;*/
+}

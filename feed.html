@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Feed | Thaigram</title>
@@ -57,18 +58,24 @@
             <img src="images/full_profile.png" alt="full_profile" class="photo__file">
             <div class="photo__meta">
                 <div class="tag_actions">
-                    <span class="photo__action">
-                        <i class="fa fa-heart" aria-hidden="true"></i>
-                    </span>
-                    <span class="photo__action">
-                        <i class="fa fa-comment-o" aria-hidden="true"></i>
-                    </span>
-                    <span class="photo__action">
-                        <i class="fa fa-bookmark-o" aria-hidden="true"></i>
-                    </span>
+                    <div class="photo__action-heart-comment">
+                        <span class="photo__action">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </span>
+                        <span class="photo__action">
+                            <i class="fa fa-comment-o" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="photo__action-bookmark">
+                        <span class="photo__action">
+                            <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                        </span>
+                    </div>
                 </div>
 
-                <span class="photo__likes">14,490 views</span>
+                <div class="photo__likes-box">
+                    <span class="photo__likes">14,490 views</span>
+                </div>
                 <ul class="photo__comment">
                     <li class="photo__comment">
                         <span class="photo__comment-author">
@@ -92,7 +99,9 @@
                 <span class="photo__date">7 days ago</span>
                 <div class="photo__add-comment">
                     <textarea placeholder="Add a comment..."></textarea>
-                    <i class="fa fa-ellipsis-h"></i>
+                    <div class="photo__add-comment-ellipsis">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
                 </div>
             </div>
         </div>
